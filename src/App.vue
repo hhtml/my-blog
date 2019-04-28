@@ -5,7 +5,9 @@
     <BlogHeader></BlogHeader>
     <!-- 路由展示区域 -->
     <div class="content">
-      <router-view/>
+      <!-- <keep-alive> --> <!-- 实现前进刷新，后退缓存 -->
+        <router-view/>
+      <!-- </keep-alive> -->
     </div>
   </div>
 </template>
