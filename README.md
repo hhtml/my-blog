@@ -1,29 +1,28 @@
-# my-blog
 
-## Project setup
-```
-npm install
-```
+## vue cli 3.X 搭建的个人博客(麻雀虽小，五脏俱全 -- 适合vue初学者练习)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### 主要涉及到的vue知识点：
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- vue 路由传参
 
-### Run your tests
-```
-npm run test
-```
+- vue resource 结合 jsonplaceholder网站练习请求并处理接口数据
 
-### Lints and fixes files
-```
-npm run lint
-```
+- 使用axios 并全局配置
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- keep-alive 实现路由后退缓存，前进刷新
+
+- 自定义指令(私有，全局)
+
+- 自定义过滤器(私有，全局)
+
+- 搜索功能
+
+### 查看方式
+
+- git clone
+
+- cd 到项目中
+
+- 运行 npm install
+
+- 运行 npm run serve
